@@ -22,7 +22,8 @@
         "import/extensions": "off",
         "react/react-in-jsx-scope": "off",
 
-        "react/jsx-indent": ["error", 4],
+        // "react/jsx-indent": ["error", 4],
+        "react/jsx-indent" : ["error", 4, { "ignoredNodes": ["JSXElement *"] }],
         "react/jsx-filename-extension": [
             1,
             { "extensions": [".js", ".jsx", ".ts", ".tsx"] }

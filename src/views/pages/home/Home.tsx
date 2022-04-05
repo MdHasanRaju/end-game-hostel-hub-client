@@ -1,22 +1,8 @@
-import { Typography } from '@mui/material';
 import { Box } from '@mui/system';
+import Banner from './Banner/Banner';
 
 function Home() {
-    return (
-        <Box
-            sx={{
-                display: 'flex',
-                alignItems: 'center',
-                height: '90vh',
-                width: '95vw',
-                justifyContent: 'center',
-            }}
-        >
-            <Typography variant="h2" align="center">
-                Grand Grand Home page
-            </Typography>
-        </Box>
-    );
+    return <Banner />;
 }
 
 export default Home;
